@@ -1,0 +1,48 @@
+.page-header {
+    background: black;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+.page-header__nav {
+    display: flex;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menu__link {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+letter-spacing: 1.5px;
+color: #FFFFFF;
+opacity: 0.67;
+}
+.menu__item:not(:last-child){
+    margin-right: 50px;
+    } 
+.page-nav {    
+    display: flex;
+    align-items: center; 
+}
+.menu__link {
+    position: relative;
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.page-header__logo {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 1px;
+color: #FFFFFF;
+margin-right: auto;
+}

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap'); </style>
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+    <header class="page-header">
+        <div class="page-header__container container">
+            <nav class="page-header__nav">
+                <a class="page-header__logo link" href="index.html">WORKOUT</a>
+            
+                <ul class="menu list">
+                    <li class="menu__item">
+                        <a class="menu__link menu__link_current link" href="">EXERCISES</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link link" href="">TRAINERS</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link link" href="">PRICING</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link link" href="">LOGIN</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- --------HERO------ -->
+    <section class="page-hero section">
+        <div class="hero-container container">
+        <div class="page-hero__news">
+            <button class="news__btn" type="button">NEW</button>
+            <p class="news__item">High Intensity workout to burn calories</p>
+        </div>
+        <h1 class="page-hero__title">Cardio<br>Exercise</h1>
+        <p class="page-hero__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <button class="hero__btn" type="button">Get Started</button>
+    <button class="hero__btn" type="button">Preview</button>
+    
+    <div class="calories-counter counter">
+        <p class="calories-counter__numb">165</p>
+        <p class="calories-counter__text">EST CALORIES</p>
+    </div>
+    <div class="minutes-counter counter">
+        <p class="minutes-counter__numb">38:14</p>
+        <p class="minutes-counter__text">TIME</p>
+    </div>
+
+    <div class="hero-img"></div>
+</div>
+    </section>
+    <section class="pop-exercises container">
+        <h2>Popular Exercises</h2>
+        <a class="pop-exercises__more link" href="">SEE MORE EXERCISES</a>
+        <ul class="pop-exercises__list">
+            <li class="pop-exercises__item">
+                <a class="pop-exercises__link link" href="">
+                <div class="pop-exercises__preview">
+                    <picture>
+                        <source
+                        srcset="./img/pop-exercises/treadmill@1x.png 1x, ./images/pop-exercises/treadmill@2x.png 2x"
+                        media="(min-width: 1200px)"
+                        />
+                        <source
+                        srcset=""
+                        media="(min-width: 768px)"
+                        />
+                        <source
+                        srcset=""
+                        media="(max-width: 767px)"
+                        />
+                        
+                        <img src="./img/pop-exercises/treadmill@1x.png" alt="treadmill" class="pop-exercises_img"/>
+                        </picture> 
+                </div>
+                <h3 class="pop-exercises__subclass">Treadmill</h3>
+                <p class="pop-exercises__timing">58:24</p>
+                <p class="pop-exercises__calories">250 est calories</p>
+            </a>
+            </li>
+            <li class="pop-exercises__item">
+                <a class="pop-exercises__link link" href="">
+                <div class="pop-exercises__preview">
+                    <picture>
+                        <source
+                        srcset="./img/pop-exercises/stretching@1x.png 1x, ./images/pop-exercises/stretching@2x.png 2x"
+                        media="(min-width: 1200px)"
+                        />
+                        <source
+                        srcset=""
+                        media="(min-width: 768px)"
+                        />
+                        <source
+                        srcset=""
+                        media="(max-width: 767px)"
+                        />
+                        
+                        <img src="./img/pop-exercises/stretching@1x.png" alt="stretching" class="pop-exercises_img"/>
+                        </picture> 
+                </div>
+                <h3 class="pop-exercises__subclass">Stretching</h3>
+                <p class="pop-exercises__timing">58:24</p>
+                <p class="pop-exercises__calories">250 est calories</p>
+            </a>
+            </li>
+            <li class="pop-exercises__item">
+                <a class="pop-exercises__link link" href="">
+                <div class="pop-exercises__preview">
+                    <picture>
+                        <source
+                        srcset="./img/pop-exercises/yoga@1x.png 1x, ./images/pop-exercises/yoga@2x.png 2x"
+                        media="(min-width: 1200px)"
+                        />
+                        <source
+                        srcset=""
+                        media="(min-width: 768px)"
+                        />
+                        <source
+                        srcset=""
+                        media="(max-width: 767px)"
+                        />
+                        
+                        <img src="./img/pop-exercises/yoga@1x.png" alt="yoga" class="pop-exercises_img"/>
+                        </picture>
+                </div>
+                <h3 class="pop-exercises__subclass">Yoga</h3>
+                <p class="pop-exercises__timing">58:24</p>
+                <p class="pop-exercises__calories">250 est calories</p>
+            </a>
+            </li>
+            <li class="pop-exercises__item">
+                <a class="pop-exercises__link link" href="">
+                    <div class="pop-exercises__preview">
+                        <picture>
+                            <source
+                            srcset="./img/pop-exercises/running@1x.png 1x, ./images/pop-exercises/running@2x.png 2x"
+                            media="(min-width: 1200px)"
+                            />
+                            <source
+                            srcset=""
+                            media="(min-width: 768px)"
+                            />
+                            <source
+                            srcset=""
+                            media="(max-width: 767px)"
+                            />
+                            
+                            <img src="./img/pop-exercises/running@1x.png" alt="running" class="pop-exercises_img"/>
+                            </picture>
+                    </div>
+                <h3 class="pop-exercises__subclass">Running</h3>
+                <p class="pop-exercises__timing">58:24</p>
+                <p class="pop-exercises__calories">250 est calories</p>
+            </a>
+            </li>
+            <li class="pop-exercises__item">
+                <a class="pop-exercises__link link" href="">
+
+                    <div class="pop-exercises__preview">
+                        <picture>
+                            <source
+                            srcset="./img/pop-exercises/lifting@1x.png 1x, ./img/pop-exercises/lifting@2x.png 2x"
+                            media="(min-width: 1200px)"
+                            />
+                            <source
+                            srcset=""
+                            media="(min-width: 768px)"
+                            />
+                            <source
+                            srcset=""
+                            media="(max-width: 767px)"
+                            />
+                            
+                            <img src="./img/pop-exercises/lifting@1x.png" alt="lifting" class="pop-exercises_img"/>
+                            </picture>
+                    </div>
+                <h3 class="pop-exercises__subclass">Lifting</h3>
+                <p class="pop-exercises__timing">58:24</p>
+                <p class="pop-exercises__calories">250 est calories</p>
+            </a>
+            </li>
+            <li class="pop-exercises__item">
+                <a class="pop-exercises__link link" href="">
+                <div class="pop-exercises__preview"><picture>
+                        <source
+                        srcset="./img/pop-exercises/pushUp@1x.png 1x, ./img/pop-exercises/pushUp@2x.png 2x"
+                        media="(min-width: 1200px)"
+                        />
+                        <source
+                        srcset=""
+                        media="(min-width: 768px)"
+                        />
+                        <source
+                        srcset=""
+                        media="(max-width: 767px)"
+                        />
+                        
+                        <img src="./img/pop-exercises/pushUp@1x.png" alt="pushUp" class="pop-exercises_img"/>
+                        </picture> 
+                    </div>
+                <h3 class="pop-exercises__subclass">PushUp</h3>
+                <p class="pop-exercises__timing">58:24</p>
+                <p class="pop-exercises__calories">250 est calories</p>
+            </a>
+            </li>
+        </ul>
+    </section>
+    <section class="program container">
+        <h2 class="program-title">Workout<br>Program<br>Made<br>For You</h2>
+        <div class="program-subscribe-box">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua consectetur adipiscing.</p>
+        <button type="button">Get Started</button>
+        </div>
+        <div class="trainers">
+            <ul class="trainers__list">
+                <li class="trainers__items">
+                    <a class="trainers__card link" href="">
+                        <div class="trainers__preview"><picture>
+                                <source
+                                srcset="./img/trainers/trainer1@1x.png 1x, ./img/trainers/trainer1@2x.png 2x"
+                                media="(min-width: 1200px)"
+                                />
+                                <source
+                                srcset=""
+                                media="(min-width: 768px)"
+                                />
+                                <source
+                                srcset=""
+                                media="(max-width: 767px)"
+                                />
+                                
+                                <img src="./img/trainers/trainer1@1x.png" alt="trainer1" class="trainers_img"/>
+                                </picture> 
+                            </div>
+                    <h3 class="trainers__title">Samantha William</h3>
+                    <p class="trainers__subtitle">Trainer</p>
+                    </a>
+                </li>
+                <li class="trainers__items">
+                    <a class="trainers__card link" href="">
+                        <div class="trainers__preview"><picture>
+                                <source
+                                srcset="./img/trainers/trainer2@1x.png 1x, ./img/trainers/trainer2@2x.png 2x"
+                                media="(min-width: 1200px)"
+                                />
+                                <source
+                                srcset=""
+                                media="(min-width: 768px)"
+                                />
+                                <source
+                                srcset=""
+                                media="(max-width: 767px)"
+                                />
+                                
+                                <img src="./img/trainers/trainer2@1x.png" alt="trainer2" class="trainers_img"/>
+                                </picture> 
+                            </div>
+                    <h3 class="trainers__title">Karen Summer</h3>
+                    <p class="trainers__subtitle">Trainer</p>
+                    </a>
+                </li>
+                <li class="trainers__items">
+                    <a class="trainers__card link" href="">
+                        <div class="trainers__preview"><picture>
+                                <source
+                                srcset="./img/trainers/trainer3@1x.png 1x, ./img/trainers/trainer3@2x.png 2x"
+                                media="(min-width: 1200px)"
+                                />
+                                <source
+                                srcset=""
+                                media="(min-width: 768px)"
+                                />
+                                <source
+                                srcset=""
+                                media="(max-width: 767px)"
+                                />
+                                
+                                <img src="./img/trainers/trainer3@1x.png" alt="trainer3" class="trainers_img"/>
+                                </picture> 
+                            </div>
+                    <h3 class="trainers__title">Jonathan Wise</h3>
+                    <p class="trainers__subtitle">Trainer</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="videos container">
+        <ol class="video-types">
+            <li class="video-types__items">
+                <h2 class="video-types__titles">Workout at Home</h2>
+                <p class="video-types__subtitles">15 videos</p>
+            </li>
+            <li class="video-types__items">
+                <h2 class="video-types__titles">Stay Strong and Fit</h2>
+                <p class="video-types__subtitles">48 videos</p>
+            </li>
+            <li class="video-types__items">
+                <h2 class="video-types__titles">High Intensity</h2>
+                <p class="video-types__subtitles">25 videos</p>
+            </li>
+            <li class="video-types__items">
+                <h2 class="video-types__titles">Simple Workout</h2>
+                <p class="video-types__subtitles">35 videos</p>
+            </li>
+            <li class="video-types__items">
+                <h2 class="video-types__titles">Burn Calories</h2>
+                <p class="video-types__subtitles">35 videos</p>
+            </li>
+
+        </ol>
+    </section>
+    
+</body>
+</html>

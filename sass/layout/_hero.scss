@@ -1,0 +1,201 @@
+.page-hero {
+    position: relative;
+        background: black;
+}
+.hero-container {
+    position: relative;
+}
+.page-hero__news {
+    display: flex;
+    // position: absolute;
+    align-items: center;
+    width: 329px;
+    height: 36px;
+    // left: 120px;
+    // top: 213px;
+    background: rgba(255,255,255,0.1);
+    margin-left: 10px;
+    margin-bottom: 55px;
+    border-radius: 200px;
+}
+
+.news__item {
+    display: block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.news__btn {
+    width: 46px;
+    height: 26px;
+    left: 125px;
+    top: 218px;
+    background: #25AB75;
+    border: solid transparent;
+    border-radius: 200px;
+    margin: 5px;
+}
+.page-hero__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 200px;
+    line-height: 170px;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+    // margin-top: 30px;
+}
+
+.page-hero__subtitle {
+    display: block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    width: 600px;
+    height: 58px;
+    left: 120px;
+    top: 662px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.hero__btn {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    width: 200px;
+    height: 70px;
+    left: 120px;
+    top: 770px;
+    background: #25AB75;
+    border-radius: 10px;
+    margin:30px;
+    // padding: 24px 43px 24px 43px;
+}
+
+.hero-img{
+    position: absolute;
+    width: 650px;
+    height: 750px;
+    left: 629px;
+    top: 0px;
+    // margin-top: 10px;
+    // margin-left: 500px;
+    background: url("/img/image1.png");
+    
+}
+
+.counter {
+    display: block;
+    
+}
+.minutes-counter {
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 166px;
+    height: 98px;
+    left: 1050px;
+    top: -600px;
+    background: rgba(255,255,255,0.1);
+    // opacity: 0.1;
+    border-radius: 20px;
+    text-align: center;
+    vertical-align:middle
+}
+.minutes-counter__numb {
+    // position: absolute;
+    // top: 70%;
+    // left: 50%;
+    // margin-right: -50%;
+    // transform: translate(-50%, 0%);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #FFE642;
+    top: 20px;
+    
+}
+.minutes-counter__text{
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // margin-right: -50%;
+    // transform: translate(-140%, 100%);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    
+}
+
+.calories-counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 166px;
+    height: 98px;
+    left: 1050px;
+    top: -320px;
+    background: rgba(255,255,255,0.1);
+    // opacity: 0.1;
+    border-radius: 20px;
+    
+        
+}
+
+.calories-counter__numb {
+    // position: absolute;
+    // top: 60%;
+    // left: 50%;
+    // margin-right: -40%;
+    // transform: translate(-70%, -100%);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: #FB1351;
+    
+}
+.calories-counter__text {
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // margin-right: -50%;
+    // transform: translate(-50%, 40%);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    // margin-top: 10px;
+}
+
