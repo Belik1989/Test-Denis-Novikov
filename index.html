@@ -52,7 +52,24 @@
         <p class="minutes-counter__text">TIME</p>
     </div>
 
-    <div class="hero-img"></div>
+    <div class="hero-img">
+        <picture>
+            <source
+            srcset="./img/image1.png 1x, ./img/image1@2x.png 2x"
+            media="(min-width: 1200px)"
+            />
+            <source
+            srcset=""
+            media="(min-width: 768px)"
+            />
+            <source
+            srcset=""
+            media="(max-width: 767px)"
+            />
+            
+            <img src="./img/image1.png" alt="heo" class="hero__img"/>
+            </picture> 
+    </div>
 </div>
     </section>
     <!-- --------Popular Exercises---- -->
@@ -69,7 +86,7 @@
                 <div class="pop-exercises__preview">
                     <picture>
                         <source
-                        srcset="./img/pop-exercises/treadmill@1x.png 1x, ./images/pop-exercises/treadmill@2x.png 2x"
+                        srcset="./img/pop-exercises/treadmill@1x.png 1x, ./img/pop-exercises/treadmill@2x.png 2x"
                         media="(min-width: 1200px)"
                         />
                         <source
@@ -96,7 +113,7 @@
                 <div class="pop-exercises__preview">
                     <picture>
                         <source
-                        srcset="./img/pop-exercises/stretching@1x.png 1x, ./images/pop-exercises/stretching@2x.png 2x"
+                        srcset="./img/pop-exercises/stretching@1x.png 1x, ./img/pop-exercises/stretching@2x.png 2x"
                         media="(min-width: 1200px)"
                         />
                         <source
@@ -123,7 +140,7 @@
                 <div class="pop-exercises__preview">
                     <picture>
                         <source
-                        srcset="./img/pop-exercises/yoga@1x.png 1x, ./images/pop-exercises/yoga@2x.png 2x"
+                        srcset="./img/pop-exercises/yoga@1x.png 1x, ./img/pop-exercises/yoga@2x.png 2x"
                         media="(min-width: 1200px)"
                         />
                         <source
@@ -150,7 +167,7 @@
                     <div class="pop-exercises__preview">
                         <picture>
                             <source
-                            srcset="./img/pop-exercises/running@1x.png 1x, ./images/pop-exercises/running@2x.png 2x"
+                            srcset="./img/pop-exercises/running@1x.png 1x, ./img/pop-exercises/running@2x.png 2x"
                             media="(min-width: 1200px)"
                             />
                             <source
@@ -312,31 +329,51 @@
             </ul>
         </div>
     </section>
-    <section class="videos container">
+    <section class="videos container ">
         <ol class="video-types">
             <li class="video-types__items">
+                <p class="items__number">01</p>
+                <div class="items__titeles">
                 <h2 class="video-types__titles">Workout at Home</h2>
                 <p class="video-types__subtitles">15 videos</p>
+            </div>
+            <img src="./img/arrow.png" alt="arrow" class="arrow" />
             </li>
             <li class="video-types__items">
+                <p class="items__number">02</p>
+                <div class="items__titeles">
                 <h2 class="video-types__titles">Stay Strong and Fit</h2>
                 <p class="video-types__subtitles">48 videos</p>
+            </div>
+            <img src="./img/arrow.png" alt="arrow" class="arrow" />
             </li>
             <li class="video-types__items">
+                <p class="items__number">03</p>
+                <div class="items__titeles">
                 <h2 class="video-types__titles">High Intensity</h2>
                 <p class="video-types__subtitles">25 videos</p>
+            </div>
+            <img src="./img/arrow.png" alt="arrow" class="arrow" />
             </li>
             <li class="video-types__items">
+                <p class="items__number">04</p>
+                <div class="items__titeles">
                 <h2 class="video-types__titles">Simple Workout</h2>
                 <p class="video-types__subtitles">35 videos</p>
+            </div>
+                <img src="./img/arrow.png" alt="arrow" class="arrow" />
             </li>
             <li class="video-types__items">
+                <p class="items__number">05</p>
+                <div class="items__titeles">
                 <h2 class="video-types__titles">Burn Calories</h2>
                 <p class="video-types__subtitles">35 videos</p>
+            </div>
+            <img src="./img/arrow.png" alt="arrow" class="arrow" />
             </li>
 
         </ol>
     </section>
-    
+    <script src="./js/index.js"></script>
 </body>
 </html>

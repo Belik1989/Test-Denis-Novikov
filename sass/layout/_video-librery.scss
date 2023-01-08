@@ -7,6 +7,7 @@
     line-height: 70px;
     letter-spacing: 0.833333px;
     color: #FFFFFF;
+    margin-bottom: 10px;
 }
 .video-types__subtitles {
     font-family: 'Poppins';
@@ -18,4 +19,42 @@
     color: #FFFFFF;
     mix-blend-mode: normal;
     opacity: 0.5;
+}
+.arrow {
+    position: relative;
+    // width: 19.61px;
+    // height: 24.22px;
+    // transform: rotate(-90deg);
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-left: auto;
+}
+.video-types__items {
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+    
+    
+}
+.video-types__items:not(:last-child){
+    border-bottom: solid 1px #9d9b9b ;
+    padding-bottom: 50px;
+}
+.video-types__items:not(:first-child){
+    padding-top: 50px;
+}
+
+.items__number {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 35px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.34;
+}
+.items__titeles {
+    margin-left: 290px;
 }

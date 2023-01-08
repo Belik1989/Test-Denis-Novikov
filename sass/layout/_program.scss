@@ -91,9 +91,9 @@
     // grid-template-columns: 321px 321px 736px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(9, 73px);
+    grid-template-rows: repeat(12, 73px);
     bottom: 150px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .trainer1 {

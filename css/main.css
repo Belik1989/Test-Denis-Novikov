@@ -212,13 +212,12 @@ body {
   margin: 30px;
 }
 
-.hero-img {
+.hero__img {
   position: absolute;
   width: 650px;
   height: 750px;
   left: 629px;
   top: 0px;
-  background: url("/img/image1.png");
 }
 
 .counter {
@@ -509,9 +508,9 @@ body {
   position: relative;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(9, 73px);
+  grid-template-rows: repeat(12, 73px);
   bottom: 150px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 .trainer1 {
@@ -539,6 +538,7 @@ body {
   line-height: 70px;
   letter-spacing: 0.833333px;
   color: #FFFFFF;
+  margin-bottom: 10px;
 }
 
 .video-types__subtitles {
@@ -551,4 +551,41 @@ body {
   color: #FFFFFF;
   mix-blend-mode: normal;
   opacity: 0.5;
+}
+
+.arrow {
+  position: relative;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin-left: auto;
+}
+
+.video-types__items {
+  display: flex;
+  align-items: center;
+}
+
+.video-types__items:not(:last-child) {
+  border-bottom: solid 1px #9d9b9b;
+  padding-bottom: 50px;
+}
+
+.video-types__items:not(:first-child) {
+  padding-top: 50px;
+}
+
+.items__number {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 35px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.34;
+}
+
+.items__titeles {
+  margin-left: 290px;
 }/*# sourceMappingURL=main.css.map */
