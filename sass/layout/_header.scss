@@ -1,5 +1,5 @@
 .page-header {
-    background: black;
+    // background: black;
     padding-bottom: 50px;
     padding-top: 40px;
 }
@@ -10,6 +10,8 @@
     display: flex;
     align-items: center;
 }
+
+
 .menu__link {
     font-family: 'Poppins';
 font-style: normal;
@@ -34,6 +36,44 @@ opacity: 0.67;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    &:before {
+        content: '';
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-top: 2px solid #25AB75;
+        border-bottom: 2px solid #25AB75;
+        transform: scaleY(2);
+        opacity: 0;
+        transition: .3s;
+    }
+    &:after {
+        content: '';
+        position: absolute;
+        top: -1px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #25AB75;
+        transform: scale(0);
+        opacity: 0;
+        transition: .3s;
+        z-index: -1;
+    }
+    &:hover,
+    &:focus {
+        color: #fff;
+        &:before {
+        transform: scaleY(1);
+        opacity: 1;
+        }
+        &:after {
+        transform: scaleY(1);
+        opacity: 1;
+        }
+    }
 }
 
 .page-header__logo {

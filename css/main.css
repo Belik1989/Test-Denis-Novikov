@@ -70,7 +70,6 @@ body {
 }
 
 .page-header {
-  background: black;
   padding-bottom: 50px;
   padding-top: 40px;
 }
@@ -112,6 +111,43 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.menu__link:before {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-top: 2px solid #25AB75;
+  border-bottom: 2px solid #25AB75;
+  transform: scaleY(2);
+  opacity: 0;
+  transition: 0.3s;
+}
+.menu__link:after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #25AB75;
+  transform: scale(0);
+  opacity: 0;
+  transition: 0.3s;
+  z-index: -1;
+}
+.menu__link:hover, .menu__link:focus {
+  color: #fff;
+}
+.menu__link:hover:before, .menu__link:focus:before {
+  transform: scaleY(1);
+  opacity: 1;
+}
+.menu__link:hover:after, .menu__link:focus:after {
+  transform: scaleY(1);
+  opacity: 1;
+}
 
 .page-header__logo {
   font-family: "Poppins";
@@ -126,7 +162,6 @@ body {
 
 .page-hero {
   position: relative;
-  background: black;
 }
 
 .hero-container {
@@ -193,23 +228,6 @@ body {
   top: 662px;
   margin-top: 15px;
   margin-left: 10px;
-}
-
-.hero__btn {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  letter-spacing: 1px;
-  color: #FFFFFF;
-  width: 200px;
-  height: 70px;
-  left: 120px;
-  top: 770px;
-  background: #25AB75;
-  border-radius: 10px;
-  margin: 30px;
 }
 
 .hero__img {
@@ -323,6 +341,16 @@ body {
   color: #FFFFFF;
   opacity: 0.67;
   margin-bottom: 45px;
+  transition: all 0.3s ease;
+}
+
+.pop-exercises__more:hover,
+.pop-exercises__more:focus {
+  display: block;
+  padding: 15px;
+  border-radius: 5px;
+  color: #3DA35D;
+  background-color: #FFFFFF;
 }
 
 .pop-exercises__list {
@@ -469,20 +497,6 @@ body {
   margin-bottom: 50px;
 }
 
-.program-subscribe-box button {
-  width: 200px;
-  height: 70px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  letter-spacing: 1px;
-  color: #FFFFFF;
-  background: #25AB75;
-  border-radius: 10px;
-}
-
 .trainers__title {
   font-family: "Poppins";
   font-style: normal;
@@ -588,4 +602,34 @@ body {
 
 .items__titeles {
   margin-left: 290px;
+}
+
+.page__btn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  width: 200px;
+  height: 70px;
+  left: 120px;
+  top: 770px;
+  background: #25AB75;
+  border-radius: 10px;
+  margin: 30px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.page__btn:hover,
+.page__btn:focus {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  background-color: white;
+  color: #25AB75;
 }/*# sourceMappingURL=main.css.map */

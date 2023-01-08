@@ -25,6 +25,16 @@ letter-spacing: 1.5px;
 color: #FFFFFF;
 opacity: 0.67;
 margin-bottom: 45px;
+transition: all 0.3s ease;
+}
+
+.pop-exercises__more:hover, 
+.pop-exercises__more:focus{
+    display: block;
+    padding: 15px;
+    border-radius: 5px;
+    color: #3DA35D;
+    background-color: #FFFFFF;
 }
 
 
@@ -126,3 +136,5 @@ text-shadow: 8px 8px 8px #00000f, 0 0 2px #FB1351, 0 0 2em #00000f;
     bottom: 50px;
     margin-left: 10px;
 }
+
+

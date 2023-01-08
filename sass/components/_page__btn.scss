@@ -1,0 +1,30 @@
+.page__btn {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    width: 200px;
+    height: 70px;
+    left: 120px;
+    top: 770px;
+    background: #25AB75;
+    border-radius: 10px;
+    margin:30px;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+
+}
+
+.page__btn:hover,
+.page__btn:focus{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    background-color:white;
+    color:#25AB75;
+}
