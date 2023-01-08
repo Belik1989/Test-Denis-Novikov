@@ -3,6 +3,17 @@
     padding-bottom: 50px;
     padding-top: 40px;
 }
+.page-header__logo{
+    display: block;
+}
+.page-header__logo:hover,
+.page-header__logo:focus {
+        color: #fff;
+        text-shadow: 0 0 5px #03e9f4,
+                    0 0 25px #03e9f4,
+                    0 0 50px #03e9f4,
+                    0 0 100px #03e9f4;
+    }
 .page-header__nav {
     display: flex;
 }

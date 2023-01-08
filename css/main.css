@@ -74,6 +74,16 @@ body {
   padding-top: 40px;
 }
 
+.page-header__logo {
+  display: block;
+}
+
+.page-header__logo:hover,
+.page-header__logo:focus {
+  color: #fff;
+  text-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
+}
+
 .page-header__nav {
   display: flex;
 }
@@ -200,6 +210,14 @@ body {
   border: solid transparent;
   border-radius: 200px;
   margin: 5px;
+  transition: 250ms;
+}
+
+.news__btn:hover,
+.news__btn:focus {
+  box-shadow: inset 6.5em 0 0 0 #FFFFFF;
+  border-color: #FFFFFF;
+  color: #25AB75;
 }
 
 .page-hero__title {
@@ -544,6 +562,21 @@ body {
   grid-row-end: 6;
 }
 
+.trainers__card {
+  display: block;
+  transition: transform 0.6s;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.trainers__card:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
 .video-types__titles {
   font-family: "Poppins";
   font-style: normal;
@@ -572,7 +605,22 @@ body {
   color: #FFFFFF;
   mix-blend-mode: normal;
   opacity: 0.5;
+  border: solid #FFFFFF;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.video-types__link {
+  display: block;
   margin-left: auto;
+  border-radius: 50%;
+  transition: 250ms;
+}
+
+.video-types__link:hover,
+.video-types__link:focus {
+  transform: rotate(-90deg);
+  background-color: #25AB75;
 }
 
 .video-types__items {

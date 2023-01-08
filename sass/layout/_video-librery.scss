@@ -22,13 +22,27 @@
 }
 .arrow {
     position: relative;
-    // width: 19.61px;
-    // height: 24.22px;
-    // transform: rotate(-90deg);
     color: #FFFFFF;
     mix-blend-mode: normal;
     opacity: 0.5;
+    border: solid #FFFFFF;
+    padding: 15px;
+    border-radius: 50%;
+    }
+
+.video-types__link {
+    display: block;
     margin-left: auto;
+    border-radius: 50%;
+    transition: 250ms;
+    
+}
+.video-types__link:hover,
+.video-types__link:focus {
+    transform: rotate(-90deg);
+    background-color: #25AB75;
+    
+
 }
 .video-types__items {
     display: flex;
