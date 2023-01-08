@@ -107,6 +107,11 @@ body {
 .menu__item:not(:last-child) {
   margin-right: 50px;
 }
+@media screen and (max-width: 1199px) {
+  .menu__item:not(:last-child) {
+    margin-right: 20px;
+  }
+}
 
 .page-nav {
   display: flex;
@@ -172,6 +177,7 @@ body {
 
 .page-hero {
   position: relative;
+  width: auto;
 }
 
 .hero-container {
@@ -188,6 +194,12 @@ body {
   margin-bottom: 55px;
   border-radius: 200px;
 }
+@media screen and (max-width: 1199px) {
+  .page-hero__news {
+    margin-bottom: 0;
+    width: 260px;
+  }
+}
 
 .news__item {
   display: block;
@@ -199,6 +211,12 @@ body {
   letter-spacing: 0.5px;
   color: #FFFFFF;
   opacity: 0.8;
+}
+@media screen and (max-width: 1199px) {
+  .news__item {
+    font-size: 9px;
+    line-height: 12px;
+  }
 }
 
 .news__btn {
@@ -229,6 +247,13 @@ body {
   letter-spacing: -2px;
   color: #FFFFFF;
 }
+@media screen and (max-width: 1199px) {
+  .page-hero__title {
+    font-size: 70px;
+    line-height: normal;
+    line-height: normal;
+  }
+}
 
 .page-hero__subtitle {
   display: block;
@@ -247,6 +272,13 @@ body {
   margin-top: 15px;
   margin-left: 10px;
 }
+@media screen and (max-width: 1199px) {
+  .page-hero__subtitle {
+    width: auto;
+    height: auto;
+    margin-top: 45px;
+  }
+}
 
 .hero__img {
   position: absolute;
@@ -254,6 +286,15 @@ body {
   height: 750px;
   left: 629px;
   top: 0px;
+}
+@media screen and (max-width: 1199px) {
+  .hero__img {
+    width: 250px;
+    height: 300px;
+    left: 250px;
+    top: 0px;
+    bottom: 0px;
+  }
 }
 
 .counter {
@@ -275,6 +316,15 @@ body {
   text-align: center;
   vertical-align: middle;
 }
+@media screen and (max-width: 1199px) {
+  .minutes-counter {
+    width: 83px;
+    height: 49px;
+    left: 380px;
+    top: -500px;
+    border-radius: 10px;
+  }
+}
 
 .minutes-counter__numb {
   font-family: "Poppins";
@@ -285,6 +335,14 @@ body {
   letter-spacing: 1px;
   color: #FFE642;
   top: 20px;
+}
+@media screen and (max-width: 1199px) {
+  .minutes-counter__numb {
+    font-size: 20px;
+    line-height: 0px;
+    top: 0px;
+    margin-top: 10px;
+  }
 }
 
 .minutes-counter__text {
@@ -297,8 +355,16 @@ body {
   color: #FFFFFF;
   margin-top: 10px;
 }
+@media screen and (max-width: 1199px) {
+  .minutes-counter__text {
+    font-size: 9px;
+    line-height: 10px;
+    margin-top: 10px;
+  }
+}
 
 .calories-counter {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -311,6 +377,15 @@ body {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 20px;
 }
+@media screen and (max-width: 1199px) {
+  .calories-counter {
+    width: 83px;
+    height: 49px;
+    left: 380px;
+    top: -400px;
+    border-radius: 10px;
+  }
+}
 
 .calories-counter__numb {
   font-family: "Poppins";
@@ -321,6 +396,14 @@ body {
   letter-spacing: 1px;
   color: #FB1351;
 }
+@media screen and (max-width: 1199px) {
+  .calories-counter__numb {
+    font-size: 20px;
+    line-height: 0px;
+    top: 0px;
+    margin-top: 10px;
+  }
+}
 
 .calories-counter__text {
   font-family: "Poppins";
@@ -330,6 +413,13 @@ body {
   line-height: 20px;
   letter-spacing: 1px;
   color: #FFFFFF;
+}
+@media screen and (max-width: 1199px) {
+  .calories-counter__text {
+    font-size: 9px;
+    line-height: 10px;
+    margin-top: 10px;
+  }
 }
 
 .pop-exercises__head {
@@ -347,6 +437,11 @@ body {
   letter-spacing: 0.3px;
   color: #FFFFFF;
   margin-bottom: 50px;
+}
+@media screen and (min-width: 768px) {
+  .pop-exercises__head h2 {
+    font-size: 25px;
+  }
 }
 
 .pop-exercises__more {
@@ -373,9 +468,26 @@ body {
 
 .pop-exercises__list {
   display: flex;
-  flex-direction: row;
-  gap: 30px;
+  gap: 20px;
+  align-items: center;
   flex-wrap: wrap;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .pop-exercises__list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .pop-exercises__list {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
 }
 
 .pop-exercises__card {
@@ -542,7 +654,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(12, 73px);
   bottom: 150px;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 
 .trainer1 {
@@ -671,6 +783,11 @@ body {
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+}
+@media screen and (max-width: 768px) {
+  .page__btn {
+    margin: 15px;
+  }
 }
 
 .page__btn:hover,

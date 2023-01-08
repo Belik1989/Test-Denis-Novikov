@@ -17,6 +17,9 @@
     -moz-transition: all 0.3s ease;;
     -o-transition: all 0.3s ease;;
     transition: all 0.3s ease;
+    @media screen and (max-width: 768px){
+        margin: 15px;
+    }
 
 }
 
@@ -28,3 +31,4 @@
     background-color:white;
     color:#25AB75;
 }
+

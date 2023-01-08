@@ -13,6 +13,9 @@
     letter-spacing: 0.3px;
     color: #FFFFFF;
     margin-bottom: 50px;
+    @media screen and (min-width: 768px) {
+        font-size: 25px;
+    }
 }
 
 .pop-exercises__more {
@@ -40,9 +43,22 @@ transition: all 0.3s ease;
 
 .pop-exercises__list {
     display: flex;
-    flex-direction: row;
-    gap: 30px;
+    gap: 20px;
+    align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        flex-wrap: wrap;
+        gap:20px;
+    }
+    @media screen and (max-width: 479px){
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
 }
 
 .pop-exercises__card{
